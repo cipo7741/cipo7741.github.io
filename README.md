@@ -1,4 +1,4 @@
 cipo7741.github.io
 ==================
 
-github web page
+GitHub Page of cipo's projects.
