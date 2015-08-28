@@ -1,5 +1,5 @@
 var xmlhttp = new XMLHttpRequest();
-var url = "data/java/lang/File.json";
+var url = "data/java/io/File.json";
 var method, jsonData;
 var numPoints, numQuests, numTries;
 
