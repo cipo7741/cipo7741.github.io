@@ -1,5 +1,5 @@
 var xmlhttp = new XMLHttpRequest();
-var url = "data/java/lang/Number/Double.json";
+var url = "data/java/io/File.json"
 var javaPackage = url.substring(5, url.length - 5).split("/").join(".")
 var method, jsonData;
 var numPoints, numQuests, numTries;
