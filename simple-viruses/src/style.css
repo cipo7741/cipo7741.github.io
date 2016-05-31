@@ -1,0 +1,46 @@
+header {
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    background: black;
+    overflow-y: auto;
+}
+
+.virus-box {
+	width: 200px;
+	height: 70px;
+	background: gray;
+	margin: 20px auto;
+	position: relative;
+}
+
+.virus-box label {
+	cursor: pointer;
+	position: absolute;
+	width: 200px;
+	height: 70px;
+	left: 0px;
+	top: 0px;
+	background: white;
+	text-align: center;
+}
+
+.virus-box label:hover {
+    background: lightyellow;
+}
+
+.roundedOne input[type=checkbox]:checked {
+    background: red;
+}
+
+.roundedOne input[type=checkbox]:checked + label:after {
+    opacity: 0.3;
+	background: red;
+}
+
+

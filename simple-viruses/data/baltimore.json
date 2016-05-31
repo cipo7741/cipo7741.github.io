@@ -1,0 +1,9 @@
+[    
+        {"desc" : "that are double stranded DNA (group 1)"},
+        {"desc" : "that are single stranded DNA (group 2)"},
+        {"desc" : "that are double stranded RNA (group 3)"},
+        {"desc" : "that are negative single stranded RNA (group 4)"},
+        {"desc" : "that are positive single stranded RNA (group 5)"},
+        {"desc" : "that are positive single stranded RNA using reverse transcriptase (group 6)"},
+        {"desc" : "that are douple stranded DNA using reverse transcriptase (group 7)"}
+]
