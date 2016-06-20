@@ -1,7 +1,3 @@
-header {
-    text-align: center;
-}
-
 section {
     display: flex;
     flex-wrap: wrap;
@@ -34,13 +30,69 @@ section {
     background: lightyellow;
 }
 
-.roundedOne input[type=checkbox]:checked {
-    background: red;
+.points {
+    position: absolute;
+	right: 0;
+	font-size: 2em;
+	margin-right: 22px;
+	top: 10px;
+	padding: 5px;
+	height:35px;
+	border-style: solid;
 }
 
-.roundedOne input[type=checkbox]:checked + label:after {
-    opacity: 0.3;
-	background: red;
+.points p{
+    margin: 0px;
 }
 
+@media screen and (min-width:769px) {
+  .submit { display:none; }
+  
+  header {
+    text-align: center;
+    }
+}
+@media screen and (max-width:768px) {
+
+    .virus-box {
+	    width: 200px;
+	    height: 40px;
+	    margin: 5px;
+	    position: relative;
+    }
+
+    .virus-box label {
+        height: 40px;
+	    cursor: pointer;
+	    position: absolute;
+	    width: 200px;
+	    left: 0px;
+	    top: 0px;
+	    background: white;
+	    text-align: center;
+    }    
+    
+    .submit input[type="submit"] {
+        float: right;
+        color: #ffffff;
+        font-size: 22px;
+        margin-top: 10px;
+        margin-right:15px;
+        padding:5px 20px; background:#000000; border:0 none;
+        cursor:pointer;
+        -webkit-border-radius: 5px;
+        border-radius: 5px; 
+        margin-left: 20px;
+        width: 200px;
+    }
+    
+    .submit input[type="submit"]:hover {
+    color: lightyellow;
+    
+    main header {
+        text-align: left;
+    }
+}
+
+}
 

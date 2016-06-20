@@ -1,11 +1,13 @@
 'use strict'
 
 var urlQuestions = 'data/baltimore.json';
-var urlAnswers = 'data/family-baltimore.json';
+var urlAnswers = 'data/virus-family-baltimore-enveloped-capsid-structure.json';
 var jsonDataQuestions, jsonDataAnswers;
-var numQuests;
+var numQuests = 0;
+var numPoints = 0;
 var question = 0;
 var selection = [];
+var checkFlag = false;
 
 var loadQuestionsJson = function(urlQuestions){
   return new Promise(function(resolve, reject) {
@@ -15,6 +17,7 @@ var loadQuestionsJson = function(urlQuestions){
       if (xmlhttp.status === 200) {
         jsonDataQuestions = JSON.parse(xmlhttp.responseText);
         newQuestion(jsonDataQuestions);
+        document.getElementById("submit").addEventListener("click", check);
       }
     }
     xmlhttp.onerror = function() {
@@ -44,7 +47,6 @@ var loadAnswersJson = function(urlAnswers){
 loadQuestionsJson(urlQuestions);
 loadAnswersJson(urlAnswers);
 
-
 var randomSeed = function(x) {
     return Math.floor((Math.random() * x));
 }
@@ -64,39 +66,84 @@ var randomSeeds = function(x, n) {
 }
 
 var newQuestion = function(arr) {
-    numQuests += 1;
     var i = randomSeed(arr.length)
     question = i+1;
-    var elm = document.getElementsByTagName('h2')[1].innerHTML += arr[i].desc;
+    var elm = document.getElementsByTagName('h2')[1].innerHTML = arr[i].desc;
 }
 
 var newAnswers = function(arr) {
-    numQuests += 1;
+    selection = []
     var numQuestions = document.getElementsByTagName('label').length
     for (var i = 0; i<numQuestions; i++){
         var r = randomSeed(arr.length)
         selection.push(r);
-        var elm = document.getElementsByTagName('label')[i].innerHTML += arr[r].name;
+//        var checkBox = document.createElement('input');
+//        checkBox.setAttribute('type', 'checkbox');
+//        checkBox.setAttribute('name', 'check');
+//        checkBox = new XMLSerializer().serializeToString(checkBox)
+//        var elm = document.getElementsByTagName('label')[i].innerHTML = checkBox + arr[r].name + " (" + arr[r].family + ")";
+        var checkbox = document.createElement('input');
+        checkbox.type = "checkbox";
+        checkbox.name = "name";
+        checkbox.value = "value";
+        checkbox.id = "id";
+        var label = document.getElementsByTagName('label')[i];
+        label.appendChild(checkbox);
+        label.appendChild(document.createTextNode(arr[r].name + " (" + arr[r].family + ")"));
     }
 }
 
 var check = function() {
+    if(checkFlag){
+        clean();
+        newQuestion(jsonDataQuestions);
+        newAnswers(jsonDataAnswers);
+        checkFlag = false;
+    } else{
+        numQuests += 1;
+        color();
+        checkFlag = true;
+    }
+}
+
+var color = function() {
+    var numRightAnswers = 0;
     for (var i = 0; i<selection.length; i++){
         var num = jsonDataAnswers[selection[i]].num
         var guess = document.getElementsByTagName('input')[i].checked
         if(num === question){
             if(guess){
                 var elm = document.getElementsByTagName('label')[i].style.background = "green";
+//                var elm = document.getElementsByTagName('label')[i].style.color = "white";
+                numRightAnswers += 1;
             } else {
                 var elm = document.getElementsByTagName('label')[i].style.background = "pink";
             }
-            
         } else {
-               if(guess){
-            var elm = document.getElementsByTagName('label')[i].style.background = "red";} else {
-            var elm = document.getElementsByTagName('label')[i].style.background = "lightgreen";    
+            if(guess){
+                var elm = document.getElementsByTagName('label')[i].style.background = "red";
+//                var elm = document.getElementsByTagName('label')[i].style.color = "white";
+            } else {
+                var elm = document.getElementsByTagName('label')[i].style.background = "lightgreen";
+                numRightAnswers += 1;
             }
         }
+    }
+    if (numRightAnswers === 6) {numPoints += 1;}
+    showPoints();
+}
+
+var showPoints = function() {
+
+    document.getElementById('points').innerHTML = "<p>"+ numPoints +"/"+ numQuests +"</p>";
+}
+
+
+var clean = function() {
+    var labels = document.getElementsByTagName('label')
+    for (var i = 0; i<labels.length; i++){
+        var elm = document.getElementsByTagName('label')[i].style.background = "white";
+        document.getElementsByTagName('label')[i].innerHTML = "";
     }
 }
 
