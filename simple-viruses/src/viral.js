@@ -99,10 +99,12 @@ var check = function() {
         newQuestion(jsonDataQuestions);
         newAnswers(jsonDataAnswers);
         checkFlag = false;
+        document.getElementById('submit').value = 'check';
     } else{
         numQuests += 1;
         color();
         checkFlag = true;
+        document.getElementById('submit').value = 'next';
     }
 }
 
