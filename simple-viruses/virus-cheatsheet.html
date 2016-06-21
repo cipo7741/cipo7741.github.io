@@ -4,49 +4,73 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>select the viruses</title>
-	<noscript><p id="noscript">Please enable JavaScript to</p></noscript>
-	<script type="text/javascript" src="src/viral.js"></script>
+	<title>learn about viruses</title>
+	<link rel="stylesheet" href="src/cheatsheet.css" />
+    <noscript><p id="noscript">Please enable JavaScript to</p></noscript>
+	<script type="text/javascript" src="src/cheat.js"></script>
 <!--	<link rel="shortcut icon" href="media/favicon.ico">-->
-	<link rel="stylesheet" href="src/style.css" />
 </head>
 <body>
 
 <main>
-    <header>
-        <div class="points" id="points"><p>0/0</p></div>
-        <h1>Select the viruses ...<h1>
-        <h2><h2>
-    </header>
-    <section>
-    <div class="virus-box">
-	    <label>
-	    </label>
-    </div>
-    <div class="virus-box">
-	    <label>
-	    </label>
-    </div>
-    <div class="virus-box">
-	    <label>
-	    </label>
-    </div>
-    <div class="virus-box">
-	    <label>
-	    </label>
-    </div>
-    <div class="virus-box">
-	    <label>
-	    </label>
-    </div>
-    <div class="virus-box">
-	    <label>
-	    </label>
-    </div>
-    <div class="submit">
-        <input id="submit" type="submit" class="button" value="check"/>
-    </div>
-    </section>
-    
+    <table>
+    <tr>
+        <th></th>
+        <th></th>
+        <th>ssDNA<img src="img/ssDNA.svg" width="42" /></th>
+        <th></th>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td class="dna" id="2"></td>
+        <td></td>
+    </tr>
+    <tr>
+        <th>(+)ssRNA(RT) <img src="img/ssRNA.svg" width="42" /></th>
+        <th>(-)ssDNA <img src="img/m_ssDNA.svg" width="42" /></th>
+        <th>dsDNA <img src="img/dsDNA.svg" width="42" /></th>
+        <th></th>
+    </tr>
+    <tr>
+        <td class="rna" id="6"></td>
+        <td class="dna"></td>
+        <td class="dna" id="1"></td>
+        <td></td>
+    </tr>
+    <tr>
+        <th>(+)ssRNA<img src="img/ssRNA.svg" width="42" /></th>
+        <th>(-)ssRNA<img src="img/m_ssRNA.svg" width="42" /></th>
+        <th>mRNA<img src="img/ssRNA.svg" width="42" /></th>
+        <th>dsRNA<img src="img/dsRNA.svg" width="42" /></th>
+    </tr>
+    <tr>
+        <td class="rna" id="4"></td>
+        <td class="rna"></td>
+        <td id="mRNA"></td>
+        <td class="rna" id="3"></td>
+    </tr>
+    <tr>
+        <th></th>
+        <th></th>
+        <th class="srna">(-)ssRNA<img src="img/m_ssRNA.svg" width="42" /></th>
+        <th></th>
+    </tr>
+    <tr>
+        <td>
+            <table>
+                <tr>
+                    <th class="dna">dsDNA(RT)</th>
+                </tr>
+                <tr>
+                    <td class="dna" id="7"></td>
+                </tr>
+            </table>
+        </td>
+        <td></td>
+        <td class="rna" id="5"></td>
+        <td></td>
+    </tr>
+</table>
 </main>
 </body>

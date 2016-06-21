@@ -115,20 +115,23 @@ var color = function() {
         var guess = document.getElementsByTagName('input')[i].checked
         if(num === question){
             if(guess){
-                var elm = document.getElementsByTagName('label')[i].style.background = "green";
+                var elm = document.getElementsByTagName('label')[i].style.background = "lightgreen";
+                var elm = document.getElementsByClassName('virus-box')[i].style.background = "white";
 //                var elm = document.getElementsByTagName('label')[i].style.color = "white";
                 numRightAnswers += 1;
             } else {
                 var elm = document.getElementsByTagName('label')[i].style.background = "pink";
+                var elm = document.getElementsByClassName('virus-box')[i].style.background = "white";
             }
         } else {
             if(guess){
-                var elm = document.getElementsByTagName('label')[i].style.background = "red";
+                var elm = document.getElementsByTagName('label')[i].style.background = "pink";
 //                var elm = document.getElementsByTagName('label')[i].style.color = "white";
-            } else {
-                var elm = document.getElementsByTagName('label')[i].style.background = "lightgreen";
-                numRightAnswers += 1;
-            }
+}
+//            } else {
+//                var elm = document.getElementsByTagName('label')[i].style.background = "lightgreen";
+//                numRightAnswers += 1;
+//            }
         }
     }
     if (numRightAnswers === 6) {numPoints += 1;}

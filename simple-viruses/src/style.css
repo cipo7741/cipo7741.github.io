@@ -10,7 +10,7 @@ section {
 .virus-box {
 	width: 200px;
 	height: 70px;
-	background: gray;
+	background: #000;
 	margin: 20px auto;
 	position: relative;
 }
@@ -18,10 +18,10 @@ section {
 .virus-box label {
 	cursor: pointer;
 	position: absolute;
-	width: 200px;
-	height: 70px;
-	left: 0px;
-	top: 0px;
+	width: 190px;
+	height: 60px;
+	left: 5px;
+	top: 5px;
 	background: white;
 	text-align: center;
 }
@@ -41,6 +41,22 @@ section {
 	border-style: solid;
 }
 
+/* unvisited link */
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: darkblue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
 .points p{
     margin: 0px;
 }
@@ -58,19 +74,19 @@ section {
     }
     
     .virus-box {
-	    width: 250px;
-	    height: 40px;
+	    width: 260px;
+	    height: 50px;
 	    margin: 5px;
 	    position: relative;
     }
 
     .virus-box label {
-        height: 40px;
-	    cursor: pointer;
+        cursor: pointer;
 	    position: absolute;
+	    height: 40px;
 	    width: 250px;
-	    left: 0px;
-	    top: 0px;
+	    left: 5px;
+	    top: 5px;
 	    background: white;
 	    text-align: center;
     }    

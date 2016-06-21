@@ -1,0 +1,67 @@
+main {
+  position: absolute;
+  z-index: 1; }
+
+section {
+  margin-bottom: 15px; }
+  section:last-child {
+    margin-bottom: 0; }
+  section:after {
+    content: "";
+    display: block;
+    clear: both; }
+
+div {
+  margin-right: 15px;
+  float: left;
+  border-radius: 3px;
+  background: rgba(238, 228, 218, 0.35); }
+  div:last-child {
+    margin-right: 0; }
+
+
+/*main section {*/
+/*    display: inline !important;*/
+/*    float:left;*/
+/*    height:25%;*/
+/*}*/
+
+/*main section div {*/
+/*    height:25%;*/
+/*    margin:10px;*/
+/*}*/
+
+
+col {
+    color: #ffffff"
+    border: 5px solid #000000;
+}
+
+table {
+    width:100%;
+}
+
+table h3 {
+    text-align:right;
+}
+
+td {
+    padding: 15px;
+}
+
+img {
+
+}
+
+.rna {
+    background-color:#;
+}
+
+.dna {
+    background-color:#75507b;
+    color: #fff;
+}
+
+#mRNA {
+    background-color:#edd400;
+}
