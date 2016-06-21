@@ -79,9 +79,7 @@ var newAnswers = function(arr) {
         selection.push(r);
         var checkbox = document.createElement('input');
         checkbox.type = "checkbox";
-        checkbox.name = "name";
-        checkbox.value = "value";
-        checkbox.id = "id";
+        checkbox.name = "check";
         var label = document.getElementsByTagName('label')[i];
         label.appendChild(checkbox);
         label.appendChild(document.createTextNode(arr[r].name + " (" + arr[r].family + ")"));
@@ -104,18 +102,19 @@ var check = function() {
 }
 
 var color = function() {
+    document.getElementsByName('check').disabled = true;
     var numRightAnswers = 0;
     for (var i = 0; i<selection.length; i++){
         var num = jsonDataAnswers[selection[i]].num
         var guess = document.getElementsByTagName('input')[i].checked
         if(num === question){
             if(guess){
-                var elm = document.getElementsByTagName('label')[i].style.background = "lightgreen";
-                var elm = document.getElementsByClassName('virus-box')[i].style.background = "white";
+                document.getElementsByTagName('label')[i].style.background = "lightgreen";
+                document.getElementsByClassName('virus-box')[i].style.background = "green";
                 numRightAnswers += 1;
             } else {
-                var elm = document.getElementsByTagName('label')[i].style.background = "pink";
-                var elm = document.getElementsByClassName('virus-box')[i].style.background = "white";
+                document.getElementsByTagName('label')[i].style.background = "pink";
+                document.getElementsByClassName('virus-box')[i].style.background = "green";
             }
         } else {
             if(guess){
@@ -135,12 +134,14 @@ var showPoints = function() {
 
 
 var clean = function() {
-    document.getElementsByClassName('virus-box')[i].style.background = "black";
+    document.getElementsByName('check').disabled = false;
     var labels = document.getElementsByTagName('label')
     for (var i = 0; i<labels.length; i++){
+        document.getElementsByClassName('virus-box')[i].style.background = "white";    
         var elm = document.getElementsByTagName('label')[i].style.background = "white";
         document.getElementsByTagName('label')[i].innerHTML = "";
     }
+    
 }
 
 document.addEventListener('keypress', function(e) {
