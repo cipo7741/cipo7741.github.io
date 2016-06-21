@@ -135,6 +135,7 @@ var showPoints = function() {
 
 
 var clean = function() {
+    document.getElementsByClassName('virus-box')[i].style.background = "black";
     var labels = document.getElementsByTagName('label')
     for (var i = 0; i<labels.length; i++){
         var elm = document.getElementsByTagName('label')[i].style.background = "white";
