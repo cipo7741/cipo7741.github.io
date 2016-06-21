@@ -77,11 +77,6 @@ var newAnswers = function(arr) {
     for (var i = 0; i<numQuestions; i++){
         var r = randomSeed(arr.length)
         selection.push(r);
-//        var checkBox = document.createElement('input');
-//        checkBox.setAttribute('type', 'checkbox');
-//        checkBox.setAttribute('name', 'check');
-//        checkBox = new XMLSerializer().serializeToString(checkBox)
-//        var elm = document.getElementsByTagName('label')[i].innerHTML = checkBox + arr[r].name + " (" + arr[r].family + ")";
         var checkbox = document.createElement('input');
         checkbox.type = "checkbox";
         checkbox.name = "name";
@@ -117,7 +112,6 @@ var color = function() {
             if(guess){
                 var elm = document.getElementsByTagName('label')[i].style.background = "lightgreen";
                 var elm = document.getElementsByClassName('virus-box')[i].style.background = "white";
-//                var elm = document.getElementsByTagName('label')[i].style.color = "white";
                 numRightAnswers += 1;
             } else {
                 var elm = document.getElementsByTagName('label')[i].style.background = "pink";
@@ -126,12 +120,10 @@ var color = function() {
         } else {
             if(guess){
                 var elm = document.getElementsByTagName('label')[i].style.background = "pink";
-//                var elm = document.getElementsByTagName('label')[i].style.color = "white";
 }
-//            } else {
-//                var elm = document.getElementsByTagName('label')[i].style.background = "lightgreen";
-//                numRightAnswers += 1;
-//            }
+            } else {
+                numRightAnswers += 1;
+            }
         }
     }
     if (numRightAnswers === 6) {numPoints += 1;}
@@ -139,7 +131,6 @@ var color = function() {
 }
 
 var showPoints = function() {
-
     document.getElementById('points').innerHTML = "<p>"+ numPoints +"/"+ numQuests +"</p>";
 }
 
