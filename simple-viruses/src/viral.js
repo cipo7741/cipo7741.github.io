@@ -120,10 +120,9 @@ var color = function() {
         } else {
             if(guess){
                 var elm = document.getElementsByTagName('label')[i].style.background = "pink";
-}
-            } else {
-                numRightAnswers += 1;
             }
+        } else {
+           numRightAnswers += 1;
         }
     }
     if (numRightAnswers === 6) {numPoints += 1;}
