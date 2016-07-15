@@ -3,112 +3,79 @@ section {
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    background: black;
+/*    background: black;*/
     overflow-y: auto;
 }
-
 .virus-box {
-	width: 200px;
-	height: 70px;
-	background: #fff;
-	margin: 20px auto;
-	position: relative;
+    width: 260px;
+    height: 60px;
+/*    margin: 5px;*/
+    position: relative;
 }
-
 .virus-box label {
-	cursor: pointer;
-	position: absolute;
-	width: 190px;
-	height: 60px;
-	left: 5px;
-	top: 5px;
-	background: white;
-	text-align: center;
-}
-
-.virus-box label:hover {
-    background: lightyellow;
-}
-
-.points {
     position: absolute;
-	right: 0;
-	font-size: 2em;
-	margin-right: 22px;
-	top: 10px;
-	padding: 5px;
-	height:35px;
-	border-style: solid;
+    width: 250px;
+    height: 50px;
+    left: 5px;
+    top: 5px;
+    background: white;
+    text-align: center;
+    cursor: pointer;
 }
-
+.virus-box label:hover {
+    background: lightyellow !important;
+}
+.points {
+    height: 35px;
+    top: 10px;
+    right: 0;
+    padding: 5px;
+    position: absolute;
+    font-size: 2em;
+    margin-right: 22px;
+    border-style: solid;
+}
 a:link {
     color: black;
     text-decoration: none;
 }
-
 a:visited {
     color: black;
 }
-
 a:hover {
     text-decoration: underline;
 }
-
-.points p{
+.points p {
     margin: 0px;
 }
-
 .submit input[type="submit"] {
-        float: right;
-        color: #ffffff;
-        font-size: 22px;
-        margin-top: 10px;
-        margin-right:15px;
-        padding:5px 20px; background:#000000; border:0 none;
-        cursor:pointer;
-        -webkit-border-radius: 5px;
-        border-radius: 5px; 
-        margin-left: 20px;
-        width: 200px;
-    }
-
-@media screen and (min-width:769px) {
-  
-  header {
-    text-align: center;
+    float: right;
+    color: #ffffff;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-right: 15px;
+    padding: 5px 20px;
+    background: #000000;
+    border: 0 none;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin-left: 20px;
+    width: 200px;
+}
+@media screen and (min-width: 769px) {
+    header {
+        text-align: center;
     }
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
     h1 {
         width: 200px;
     }
-    
-    .virus-box {
-	    width: 260px;
-	    height: 50px;
-	    margin: 5px;
-	    position: relative;
-    }
-
-    .virus-box label {
-        cursor: pointer;
-	    position: absolute;
-	    height: 40px;
-	    width: 250px;
-	    left: 5px;
-	    top: 5px;
-	    padding: 5px;
-	    background: white;
-	    text-align: center;
-    }
-    
     .submit input[type="submit"]:hover {
-    color: lightyellow;
-    
-    main header {
-        text-align: left;
+        color: lightyellow;
+        main header {
+            text-align: left;
+        }
     }
 }
-
-}
-
