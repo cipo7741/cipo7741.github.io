@@ -1,0 +1,192 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+
+/* Main content */
+main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+/* them images */
+header,.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 1;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+header {
+  background-image: url("images/pexels-photo-236028.jpeg");
+  min-height: 100%;
+}
+
+
+.bgimg-1 {
+  background-image: url("images/pexels-photo-236028.jpeg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("images/pexels-photo-1487711.jpeg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("images/pexels-photo-1482177.jpeg");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption h1 {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+  font-weight: 400;
+}
+
+.caption h2 {
+  background-color:transparent;
+  font-size:25px;
+  font-weight: 400;
+  color: #f7f7f7;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+.caption span.border-2 {
+  background-color:transparent;
+  font-size:25px;
+  color: #f7f7f7;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  header, .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
+
+#gallery {
+  width: 1050px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  margin: 100px auto;
+}
+
+#navigation {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+#navigation li {
+  padding: 0;
+  margin: 0;
+  float: left;
+  clear: both;
+}
+
+#navigation li a img {
+  display: block;
+  border: none;
+}
+
+#navigation li a {
+  display: block;
+}
+
+#full-picture {
+  width: 800px;
+  height: 564px;
+  overflow: hidden;
+  float: left;
+}
+
+.intro{
+  color: #777;
+  background-color:white;
+  text-align:center;
+  padding:50px 80px;
+  text-align: justify;
+}
+
+section {
+  position:relative;
+}
+
+section , footer {
+color:#ddd;
+background-color:#282E34;
+text-align:center;
+padding:50px 80px;
+text-align: justify;
+}
+
+footer a {
+color:#ddd;
+text-decoration: none;  
+}
+
+
+#mapid { height: 250px; }
+
+/* The navigation bar */
+nav {
+  overflow: hidden;
+  background-color: #282E34;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 2;
+}
+
+/* Links inside the navbar */
+nav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+nav a:hover {
+  background: #ddd;
+  color: black;
+}
+
+ /*ul li {
+    display: none;
+}*/
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}

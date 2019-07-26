@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html  lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta name="language" content="de" /> 
+    <meta name="description" content="Hompage der Handweberin Gundula Lengert">
+    <meta name="keywords" content="Handarbeit, Werkstatt, Weben, Spinnen, Stoffe, Kleidung, Seide, Leinen">
+    <meta  name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gundula Lengert</title>
+    <link rel="icon" href="images/logo.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+   integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+   crossorigin=""/>
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script type="text/javascript"src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+   integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+   crossorigin="">
+   </script>
+   <script type="text/javascript" src="directions.js"></script>
+</head>
+
+<body>
+  <header class=".bgimg-1" id="home">
+    <nav>
+      <ul>
+      <li><a href="index.html#home">Home</a></li>
+      <li><a href="index.html#events">Events</a></li>
+      <li><a href="index.html#about">Über</a></li>
+      <li><a href="index.html#gallery">Galerie</a></li>
+      <li><a href="index.html#contact">Kontakt</a></li>
+      <li><a href="impressum.html#impressum">Impressum & Datenschutz</a></li>
+    </nav>
+      <div class="caption">
+         <object data="images/logo.svg" type="image/svg+xml">
+          <img src="yourfallback.jpg" />
+        </object>
+      </div>
+  </header>
+  <section class="intro">
+      <h2 id="events">Werkstatt für Handweberei</h2>
+      <p>Jeden ersten Sonntag im Monat in der Alten Brennerei </p>
+      <p>Butjadinger Straße 346</p>
+      <p>26125 Oldenburg</p>
+      <p>Tel.: 0441-83168</p>
+  </section>
+  <section class="bgimg-2">
+    <div class="caption">
+    <h2 id="about">HANDARBEIT</h2>
+    </div>
+  </section>
+  <section>
+    <p>Exklusive Mode aus einer Hand. Von der Wolle bis zum Kleidungsstück. Exklusive Unikate. Natürlich.</p>
+  </section>
+  <section class="bgimg-3">
+    <div class="caption">
+    <h2>Gallerie</h2>
+    </div>
+  </section>
+  <!-- <img src="images/cobweb-morgentau-dew-dewdrop-53367.jpeg"> 
+    <img src="images/cobweb-network-networking-nature.jpg">  -->
+  <section>
+      <div id="gallery">
+      <ul id="navigation">
+        <li><a href="#pic1"><img alt="" src="images/cobweb-morgentau-dew-dewdrop-53367-small.jpeg" /></a></li>
+        <li><a href="#pic2"><img alt="" src="images/cobweb-network-networking-nature-small.jpg" /></a></li>
+        <li><a href="#pic3"><img alt="" src="images/spider-web-with-water-beads-network-dewdrop-small.jpg" /></a></li>
+      </ul>
+        <div id="full-picture">
+          <div>
+            <a name="pic1"></a>
+            <img alt="" src="images/cobweb-morgentau-dew-dewdrop-53367.jpeg" />
+          </div>
+          <div>
+            <a name="pic2"></a>
+            <img alt="" src="images/cobweb-network-networking-nature.jpg" />
+          </div>
+          <div>
+            <a name="pic3"></a>
+            <img alt="" src="images/spider-web-with-water-beads-network-dewdrop.jpg" />
+          </div>
+        </div>
+      </div>
+  </section>
+  <section class="bgimg-1">
+    <div class="caption">
+    <span class="border">info@aranea.com</span>
+    </div>
+  </section>
+  <section>
+      <h2 id="contact">Werkstatt für Handweberei</h2>
+      <ul>
+        <li>Jeden ersten Sonntag im Monat in der Alten Brennerei</li>
+        <li>Butjadinger Straße 346</li>
+        <li>26125 Oldenburg</li>
+        <li>Tel.: 0441-83168</li>
+      </ul>
+     <div id="mapid"></div>
+  </section>
+  <footer>
+      <a href="impressum.html#impressum">Impressum</a>
+      &copy; Gundula Lengert
+      <script type="text/javascript">
+          document.write(new Date().getFullYear());
+      </script>
+  </footer>
+</body>
+</html>
