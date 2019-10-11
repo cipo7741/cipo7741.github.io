@@ -1,0 +1,729 @@
+{
+    "name": "Germany",
+    "children": [
+        {
+            "name": "",
+            "children": [
+                {
+                    "name": "",
+                    "children": [
+                        {
+                            "name": "comufy.com",
+                            "size": 8657
+                        },
+                        {
+                            "name": "mobfox.com",
+                            "size": 8582
+                        },
+                        {
+                            "name": "browser-update.org",
+                            "size": 8305
+                        },
+                        {
+                            "name": "h3q.com",
+                            "size": 8077
+                        },
+                        {
+                            "name": "adspirit.net",
+                            "size": 7395
+                        },
+                        {
+                            "name": "trendcounter.com",
+                            "size": 7357
+                        },
+                        {
+                            "name": "contentspread.net",
+                            "size": 7231
+                        },
+                        {
+                            "name": "junbi-tracker.com",
+                            "size": 7047
+                        },
+                        {
+                            "name": "tcimg.com",
+                            "size": 6324
+                        },
+                        {
+                            "name": "researchgate.net",
+                            "size": 5155
+                        },
+                        {
+                            "name": "rarlab.com",
+                            "size": 1687
+                        }
+                    ]
+                },
+                {
+                    "name": "Deutsche Telekom AG, Domainmanagement",
+                    "children": [
+                        {
+                            "name": "t-mobile.com",
+                            "size": 8718
+                        }
+                    ]
+                },
+                {
+                    "name": "Eyeo GmbH",
+                    "children": [
+                        {
+                            "name": "adblockplus.org",
+                            "size": 9552
+                        }
+                    ]
+                },
+                {
+                    "name": "Instair Kopfhorer",
+                    "children": [
+                        {
+                            "name": "instair.net",
+                            "size": 3900
+                        }
+                    ]
+                },
+                {
+                    "name": "IntelliAd Media GmbH",
+                    "children": [
+                        {
+                            "name": "intelliad.com",
+                            "size": 2377
+                        }
+                    ]
+                },
+                {
+                    "name": "LEO GmbH",
+                    "children": [
+                        {
+                            "name": "leo.org",
+                            "size": 4262
+                        }
+                    ]
+                },
+                {
+                    "name": "Not Disclosed",
+                    "children": [
+                        {
+                            "name": "semasio.net",
+                            "size": 8646
+                        }
+                    ]
+                },
+                {
+                    "name": "Remintrex GmbH",
+                    "children": [
+                        {
+                            "name": "remintrex.com",
+                            "size": 3046
+                        }
+                    ]
+                },
+                {
+                    "name": "SMARTSTREAM.TV GmbH",
+                    "children": [
+                        {
+                            "name": "smartstream.tv",
+                            "size": 9213
+                        }
+                    ]
+                },
+                {
+                    "name": "STR\u00d6ER Media Brands AG",
+                    "children": [
+                        {
+                            "name": "kraloyun.com",
+                            "size": 4632
+                        }
+                    ]
+                },
+                {
+                    "name": "SoundCloud Ltd.",
+                    "children": [
+                        {
+                            "name": "soundcloud.com",
+                            "size": 9606
+                        },
+                        {
+                            "name": "sndcdn.com",
+                            "size": 9008
+                        }
+                    ]
+                },
+                {
+                    "name": "The ADEX GmbH",
+                    "children": [
+                        {
+                            "name": "theadex.com",
+                            "size": 3896
+                        }
+                    ]
+                },
+                {
+                    "name": "The Document Foundation",
+                    "children": [
+                        {
+                            "name": "libreoffice.org",
+                            "size": 636
+                        }
+                    ]
+                },
+                {
+                    "name": "United Internet Media GmbH",
+                    "children": [
+                        {
+                            "name": "tifbs.net",
+                            "size": 4464
+                        }
+                    ]
+                },
+                {
+                    "name": "ZenGuard GmbH",
+                    "children": [
+                        {
+                            "name": "zenguard.biz",
+                            "size": 8304
+                        }
+                    ]
+                },
+                {
+                    "name": "ZenGuard UG (haftungsbeschraenkt)",
+                    "children": [
+                        {
+                            "name": "zenmate.com",
+                            "size": 7488
+                        }
+                    ]
+                },
+                {
+                    "name": "ad2games",
+                    "children": [
+                        {
+                            "name": "a2g-secure.com",
+                            "size": 6149
+                        },
+                        {
+                            "name": "ad2games.com",
+                            "size": 5350
+                        }
+                    ]
+                },
+                {
+                    "name": "c/o IDPS International Domain Privacy Services GmbH",
+                    "children": [
+                        {
+                            "name": "splitcamera.com",
+                            "size": 5892
+                        }
+                    ]
+                },
+                {
+                    "name": "pdfforge GmbH",
+                    "children": [
+                        {
+                            "name": "pdfforge.org",
+                            "size": 1661
+                        }
+                    ]
+                },
+                {
+                    "name": "sociomantic labs GmbH",
+                    "children": [
+                        {
+                            "name": "sociomantic.com",
+                            "size": 9380
+                        }
+                    ]
+                },
+                {
+                    "name": "trivago N.V.",
+                    "children": [
+                        {
+                            "name": "trivago.com",
+                            "size": 948
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "BAYERN",
+            "children": [
+                {
+                    "name": "Not Disclosed",
+                    "children": [
+                        {
+                            "name": "adrtx.net",
+                            "size": 7206
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "BW",
+            "children": [
+                {
+                    "name": "Statutory Masking Enabled",
+                    "children": [
+                        {
+                            "name": "sap.com",
+                            "size": 3897
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Baden-Wuerttemberg",
+            "children": [
+                {
+                    "name": "Gameforge Productions GmbH",
+                    "children": [
+                        {
+                            "name": "gameforge.com",
+                            "size": 6973
+                        },
+                        {
+                            "name": "gfsrv.net",
+                            "size": 6618
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Baden-W\u00fcrttemberg",
+            "children": [
+                {
+                    "name": "Avira Operations GmbH & Co. KG",
+                    "children": [
+                        {
+                            "name": "avira.com",
+                            "size": 9132
+                        },
+                        {
+                            "name": "avira-update.com",
+                            "size": 9069
+                        }
+                    ]
+                },
+                {
+                    "name": "M,P,NEWMEDIA, GmbH",
+                    "children": [
+                        {
+                            "name": "mpnrs.com",
+                            "size": 4008
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Bayern",
+            "children": [
+                {
+                    "name": "AppWork GmbH",
+                    "children": [
+                        {
+                            "name": "jdownloader.org",
+                            "size": 7151
+                        },
+                        {
+                            "name": "appwork.org",
+                            "size": 6681
+                        }
+                    ]
+                },
+                {
+                    "name": "Not Disclosed",
+                    "children": [
+                        {
+                            "name": "siemens.com",
+                            "size": 991
+                        }
+                    ]
+                },
+                {
+                    "name": "TeamSpeak Systems",
+                    "children": [
+                        {
+                            "name": "teamspeak.com",
+                            "size": 5177
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Berlin",
+            "children": [
+                {
+                    "name": "Aeria Games GmbH",
+                    "children": [
+                        {
+                            "name": "aeriagames.com",
+                            "size": 1355
+                        }
+                    ]
+                },
+                {
+                    "name": "Not Disclosed",
+                    "children": [
+                        {
+                            "name": "fonts.net",
+                            "size": 9247
+                        }
+                    ]
+                },
+                {
+                    "name": "Webtrekk GmbH",
+                    "children": [
+                        {
+                            "name": "webtrekk.com",
+                            "size": 8549
+                        },
+                        {
+                            "name": "webtrekk.net",
+                            "size": 7752
+                        },
+                        {
+                            "name": "wt-eu02.net",
+                            "size": 2934
+                        }
+                    ]
+                },
+                {
+                    "name": "advanced STORE GmbH",
+                    "children": [
+                        {
+                            "name": "ad4mat.net",
+                            "size": 259
+                        }
+                    ]
+                },
+                {
+                    "name": "glispa GmbH",
+                    "children": [
+                        {
+                            "name": "glispa.com",
+                            "size": 7922
+                        }
+                    ]
+                },
+                {
+                    "name": "plista GmbH",
+                    "children": [
+                        {
+                            "name": "plista.com",
+                            "size": 7592
+                        }
+                    ]
+                },
+                {
+                    "name": "wooga GmbH",
+                    "children": [
+                        {
+                            "name": "wooga.com",
+                            "size": 5280
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "DE",
+            "children": [
+                {
+                    "name": "",
+                    "children": [
+                        {
+                            "name": "rvty.net",
+                            "size": 7079
+                        },
+                        {
+                            "name": "games724.com",
+                            "size": 2638
+                        }
+                    ]
+                },
+                {
+                    "name": "1&1 Internet SE",
+                    "children": [
+                        {
+                            "name": "oneandone.net",
+                            "size": 2040
+                        }
+                    ]
+                },
+                {
+                    "name": "1&1 Mail & Media GmbH",
+                    "children": [
+                        {
+                            "name": "gmx.com",
+                            "size": 6598
+                        },
+                        {
+                            "name": "gmx.net",
+                            "size": 5706
+                        },
+                        {
+                            "name": "uicdn.com",
+                            "size": 1823
+                        }
+                    ]
+                },
+                {
+                    "name": "4K Media GmbH",
+                    "children": [
+                        {
+                            "name": "servetags.com",
+                            "size": 5257
+                        }
+                    ]
+                },
+                {
+                    "name": "Active Agent AG",
+                    "children": [
+                        {
+                            "name": "active-agent.com",
+                            "size": 9157
+                        }
+                    ]
+                },
+                {
+                    "name": "Altigi GmbH",
+                    "children": [
+                        {
+                            "name": "goodgamestudios.com",
+                            "size": 8227
+                        }
+                    ]
+                },
+                {
+                    "name": "BILD GmbH & Co. KG",
+                    "children": [
+                        {
+                            "name": "bild.com",
+                            "size": 5505
+                        }
+                    ]
+                },
+                {
+                    "name": "Deutsche Nationalbibliothek",
+                    "children": [
+                        {
+                            "name": "d-nb.info",
+                            "size": 6728
+                        }
+                    ]
+                },
+                {
+                    "name": "Hurra Communications GmbH",
+                    "children": [
+                        {
+                            "name": "hurra.com",
+                            "size": 1765
+                        }
+                    ]
+                },
+                {
+                    "name": "Jimdo GmbH",
+                    "children": [
+                        {
+                            "name": "jimdo.com",
+                            "size": 4073
+                        },
+                        {
+                            "name": "jimstatic.com",
+                            "size": 889
+                        }
+                    ]
+                },
+                {
+                    "name": "Mapp Digital Germany GmbH",
+                    "children": [
+                        {
+                            "name": "appoxee.com",
+                            "size": 8914
+                        }
+                    ]
+                },
+                {
+                    "name": "Rubika Media GmbH & Co. KG",
+                    "children": [
+                        {
+                            "name": "schnutzelhuber.com",
+                            "size": 5536
+                        }
+                    ]
+                },
+                {
+                    "name": "Travian Games GmbH",
+                    "children": [
+                        {
+                            "name": "traviangames.com",
+                            "size": 806
+                        }
+                    ]
+                },
+                {
+                    "name": "United Internet Media GmbH",
+                    "children": [
+                        {
+                            "name": "uimserv.net",
+                            "size": 6366
+                        }
+                    ]
+                },
+                {
+                    "name": "Virtual Minds AG",
+                    "children": [
+                        {
+                            "name": "adition.com",
+                            "size": 8799
+                        }
+                    ]
+                },
+                {
+                    "name": "Yieldlab AG",
+                    "children": [
+                        {
+                            "name": "yieldlab.net",
+                            "size": 9528
+                        }
+                    ]
+                },
+                {
+                    "name": "webme GmbH",
+                    "children": [
+                        {
+                            "name": "webme.com",
+                            "size": 5283
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Hamburg",
+            "children": [
+                {
+                    "name": "Bigpoint GmbH",
+                    "children": [
+                        {
+                            "name": "bigpoint.com",
+                            "size": 3004
+                        },
+                        {
+                            "name": "bpsecure.com",
+                            "size": 220
+                        }
+                    ]
+                },
+                {
+                    "name": "Smaato Inc.",
+                    "children": [
+                        {
+                            "name": "smaato.net",
+                            "size": 9720
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Hessen",
+            "children": [
+                {
+                    "name": "Next Tuesday GmbH",
+                    "children": [
+                        {
+                            "name": "nt.vc",
+                            "size": 8143
+                        }
+                    ]
+                },
+                {
+                    "name": "Planet49 GmbH",
+                    "children": [
+                        {
+                            "name": "planet49.com",
+                            "size": 918
+                        }
+                    ]
+                },
+                {
+                    "name": "trexsoft GmBH",
+                    "children": [
+                        {
+                            "name": "canlitv.com",
+                            "size": 198
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "NRW",
+            "children": [
+                {
+                    "name": "Gigaset Communications GmbH",
+                    "children": [
+                        {
+                            "name": "gigaset.net",
+                            "size": 642
+                        }
+                    ]
+                },
+                {
+                    "name": "R&E Media GmbH",
+                    "children": [
+                        {
+                            "name": "foxydeal.com",
+                            "size": 7569
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Nordrhein-Westfalen",
+            "children": [
+                {
+                    "name": "Ligatus GmbH",
+                    "children": [
+                        {
+                            "name": "ligatus.com",
+                            "size": 9439
+                        },
+                        {
+                            "name": "veeseo.com",
+                            "size": 6641
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Unknown",
+            "children": [
+                {
+                    "name": "",
+                    "children": [
+                        {
+                            "name": "escinteractive.com",
+                            "size": 7515
+                        }
+                    ]
+                },
+                {
+                    "name": "com2 GmbH",
+                    "children": [
+                        {
+                            "name": "hamburgdeclaration.org",
+                            "size": 256
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
